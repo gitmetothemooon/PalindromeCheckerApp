@@ -1,0 +1,42 @@
+/**
+ * MAIN CLASS: PalindromeCheckerApp
+ * Use Case 2: Hardcoded palindrome message
+ *
+ * Description: This class shows the basic palindrome validation using a hardcode string value
+ *
+ * At this stage, the application consists of:
+ *  - It stores predefined value
+ *  - Compares characters from both ends of the string
+ *  - Checks if the result is a palindrome or not. Finally displays the result
+ *
+ *  palindrome logic has been implemented
+ *
+ *
+ * @author Satvik Sharma
+ * @version 1.0
+ *
+ * */
+
+public class PalindromeCheckerApp {
+    /**
+     *Palindrome
+     * */
+    public static void main(String[] args){
+
+        String word = "madam";
+        boolean isPalindrome = true;
+        int n=word.length() - 1;
+        for (int i = 0; i < word.length()/2; i++){
+            if (word.charAt(i) != word.charAt(n-i)){
+                isPalindrome = false;
+                break;
+            }
+        }
+        if (isPalindrome){
+            System.out.println(word + " is a palindrome");
+        }
+        else{
+            System.out.println(word + " is not a palindrome");
+        }
+    }
+}
