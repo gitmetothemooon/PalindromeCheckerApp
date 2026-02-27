@@ -8,7 +8,7 @@
  * - Deque (Double Ended Queue) [cite: 10]
  * - Front and Rear Access [cite: 11]
  * - Optimized Data Handling [cite: 12]
- * * @author SHIVANSH DHINGRA
+ * * @author Satvik Sharma
  * @version 7.0 [cite: 26]
  */
 import java.util.ArrayDeque;
