@@ -11,8 +11,8 @@
  *  - Stack vs Queue
  *  - Logical Comparison
  *
- * @author Ryan John Mathew
- * @version 6.0
+ * @author Satvk Sharma
+ * @version 1.0
  */
 
 import java.util.Stack;
